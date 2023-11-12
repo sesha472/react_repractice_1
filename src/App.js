@@ -17,8 +17,8 @@ function App() {
         <h1 style={{fontStyle:"italic",fontFamily:"cursive"}}>lets make it react earns billions of money to pogula venkata sesha sai kumar </h1>
       <Incriment/><hr/>
 
-      <Button/><hr></hr>
-      <Button2/>
+      <Button name={"button1"}/><hr></hr>
+      <Button2 buttonname={"button2"}/>
       
     </div>
   );

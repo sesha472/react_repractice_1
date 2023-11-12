@@ -1,11 +1,11 @@
 import react from 'react'
 
-const  Button=()=>{
+const  Button=(props)=>{
 
     return(
         <div>
         <p>This is button component using aroow function </p>
-        <button>submit</button>
+        <button>{props.name}</button>
         </div>
     )
 
